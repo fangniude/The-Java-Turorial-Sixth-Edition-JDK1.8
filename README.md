@@ -184,45 +184,45 @@ java MyApp arg1 arg2
 
 **问题1：** 编译用java语言编写的程序时，编译器将人可读的源文件转换为JVM可以理解的与平台无关的代码，这个与平台无关的代码叫什么？
 
-**答案：**字节码。
+**答案：** 字节码。
 
-**问题2：**下列哪项不是有效的注释？
+**问题2：** 下列哪项不是有效的注释？
 
 - a. / ** comment */
 - b. /* comment */
 - c. /* comment
 - d. // comment
 
-**答案：**C
+**答案：** C
 
-**问题3：**如果在运行时看到以下错误，你应该检查的第一件事是：
+**问题3：** 如果在运行时看到以下错误，你应该检查的第一件事是：
 
 ```
 Exception in thread "main" java.lang.NoClassDefFoundError:
 HelloWorldApp.java.
 ```
 
-**答案：**检查类路径，找不到该类。
+**答案：** 检查类路径，找不到该类。
 
-**问题 4**:`main`方法的正确签名是什么？
+**问题 4:** `main`方法的正确签名是什么？
 
-**答案：**public static void main(String[] args) 或 public static void main(String... args)
+**答案：** public static void main(String[] args) 或 public static void main(String... args)
 
-**问题 5**: 声明`main`方法时, 哪个修饰符必须先出现,`public`或`static`?
+**问题 5**:  声明`main`方法时, 哪个修饰符必须先出现,`public`或`static`?
 
-**答案：**可以任意顺序，但大多数会是public static
+**答案：** 可以任意顺序，但大多数会是public static
 
-**问题 6**:`main`方法定义了哪些参数？
+**问题 6:** `main`方法定义了哪些参数？
 
-**答案：**一个String数组类型的参数，通常命名为args
+**答案：** 一个String数组类型的参数，通常命名为args
 
 ### 1.4.2 练习
 
-**练习 1**: 更改 HelloWorldApp 程序, 使其显示`Hola Mundo!`, 而不是`Hello World!`!.
+**练习 1:** 更改 HelloWorldApp 程序, 使其显示`Hola Mundo!`, 而不是`Hello World!`!.
 
-**答案：**修改 System.out.println("Hola Mundo!"); //Display the string.
+**答案：** 修改 System.out.println("Hola Mundo!"); //Display the string.
 
-**练习 2**: 下面是一个稍微修改过的HelloWorldApp版本: HelloWorldApp2.java
+**练习 2**:  下面是一个稍微修改过的HelloWorldApp版本: HelloWorldApp2.java
 
 ```
 class HelloWorldApp2 {
@@ -234,7 +234,7 @@ class HelloWorldApp2 {
 
 程序有错误。修复错误, 以便程序成功编译和运行。错误是什么？
 
-**答案：**字条串后面缺少引号。
+**答案：** 字条串后面缺少引号。
 
 # 2. 学习Java语言
 
