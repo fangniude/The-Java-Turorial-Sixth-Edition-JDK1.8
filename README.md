@@ -41,7 +41,7 @@ Java编程语言是一种高级语言，可以用以下术语来描述
 
 因为JVM在许多不同的操作系统上都可用，所以相同的`.class`文件可以在Windows、Solaris、Linux、macOS上运行。某些虚拟机（比如HotSport）在运行时执行其他步骤，使应用程序的性能更好。这包括各种任务，如查找性能瓶颈 和 重新编译（本地机器码）经常使用的代码。
 
-![getStarted-jvm](./getStarted-helloworld.gif)
+![getStarted-jvm](./getStarted-helloWorld.gif)
 
 #### 1.1.1.2 Java平台
 
